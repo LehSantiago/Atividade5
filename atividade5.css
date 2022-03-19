@@ -1,0 +1,208 @@
+body{
+       font-family:tahoma,verdana,arial;
+}
+main{
+    position:relative;
+    width:90%;
+    height:700px;
+    background-color:#CCC;
+    margin:auto;
+}
+    header{
+        position:relative;
+        width:100%;
+        height:65px;
+        background-color:#D7F205;
+        font-size:25px;
+        text-align:center;
+        font-weight:bold;
+        padding-top:15px;
+    }
+
+ #menu_superior{
+position:relative;
+width:100%;
+height:30px;
+float:left;
+text-decoration:none;
+margin:auto;
+   }
+   #menu_superior a{
+    display:none;
+    width:20%;
+    height:30px;
+    background-color:#04400D;
+    color:#fff;
+    text-decoration:none;
+   float:left;
+   font-size:10pt;
+   }
+   #menu_superior a:hover{
+    background-color:#ffffff;
+    border-color:#fff;
+    transition:2s all;
+}
+
+
+   #tag1{
+    font-size:10pt;
+background-color:#7FFFD4;
+width:290px;
+height:85%;
+   }
+   #menu_lateral{
+    position:relative;
+    width:90%;
+    float:left;
+    background-color:#fff;
+    margin:auto;
+    margin-left:15px;   
+
+}
+#menu_lateral a{
+    width:85%;
+    background-color:#bbb;
+    text-align:left;
+    padding-left:6%;
+    padding:5px;
+    height:30px;
+    margin:auto;
+    display:block;
+    text-decoration:none;
+    color:#fff;
+    border-bottom: 0.6px  solid #fff;
+   }
+   #menu_lateral a:hover{
+    background-color:#fff;
+    transition:2s all;
+}
+aside{
+    position:relative;
+    margin:auto;
+    font-size:10pt;
+    background-color:#ffffff;
+    width:85%;
+    padding:10px;
+    height:240px;
+    float:left;
+    margin-top:25px;
+    margin-left: 10px;
+}
+#tag2{
+    position:absolute;
+    background-color:#7C44FF;
+    width:75%;
+    height:550px;
+    float:right;
+    margin-bottom:auto;
+top:11.1%;
+left:24.9%;
+ }
+    footer{
+    position:absolute;
+    width:100%;
+    height:80px;
+    background-color:#330000;
+    color:#fff;
+    font-size:10pt;
+    clear:right;
+    top:90%;
+    }
+    article{
+            position:relative;
+            margin:auto;
+            background-color:#CCFFFF;
+            width:97%;
+            height:40px;
+            float:left;
+            margin-left: 13px;
+            margin-top:5px;
+            border-top:solid 15px #fff;
+            font-size:10pt;
+    }
+     article p{
+        position:relative;
+text-align:center;
+font-weight:bold;
+color:#000;
+font-size:10pt;
+margin:auto;
+    }
+    #texto{
+        position:relative;
+        margin:auto;
+        font-size:10pt;
+        color:#fff;
+        background-color:#FA8072;
+        width:97%;
+        height:150px;
+        float:left;
+        margin-left: 13px;
+        border-top:solid 15px #fff;
+
+    }
+    #imagem{
+        position:relative;
+        font-size:10pt;
+        margin:auto;
+        background-color:#CCCCFF;
+        width:97%;
+        height:300px;
+        float:left;
+        margin-left: 13px;
+        border-top:solid 15px #fff;
+    }
+   /* visualização no celular*/
+@media only screen and (max-width:481px)
+{
+#menu_lateral, aside,#tag1{
+	display:none;
+}	
+header{
+    background-color:#CCFF00;
+}
+#menu_superior a{
+ display:block;
+ width:100%;
+ height:30px;
+ border:solid 1px #fff;
+ background-color:#AB0909;
+}
+
+#tag2{
+    top:29%;
+	width:100%;
+    left:0px;
+}
+footer{
+    top:100%;
+}
+}
+/* visualização no tablet*/
+@media only screen and (min-width:481px){
+    @media only screen and (max-width:720px)
+    {
+    #menu_lateral,aside,#tag1{
+         display:none;/*retira fisicamente o componente*/
+        }
+    
+    #tag2{
+         width:100%;
+         left:0px;
+    }
+    #menu_superior a{
+         width:20%;
+         display:block;
+    }
+    }
+    }
+        
+        
+/*https://www.linkedin.com/in/afonsoguilherme/
+https://www.linkedin.com/in/marcellepaiva/
+https://www.linkedin.com/in/vanusa-santana-msc-9935a923/
+From ROSANI BERTELLI AMAT to Everyone 11:08 AM
+https://www.linkedin.com/in/vanusa-santana-msc-9935a923
+https://www.linkedin.com/in/afonsoguilherme
+https://www.linkedin.com/in/marcellepaiva
+*/
